@@ -32,6 +32,7 @@ def create_bucket(argv):
         elif opt in ("-i", "--immutable"):
             arg_immutable = arg
 
+# Print the input variables - temp code to be removed    
     print('bucket:', arg_bucket)
     print('profile:', arg_profile)
     print('endpoint:', arg_endpoint)
